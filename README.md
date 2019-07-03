@@ -3,16 +3,16 @@
 Coursera Data Science Certificate - Getting and Cleaning Data final project
 
 Description
-This repo is to satisfy the Coursera Data Science Course project Getting and Cleaning Data
-Takes multiple data sets from a wearable data repo from UCI titled Human Activity Recognition Using Smartphones Data Set
+This repo is to satisfy the final project of the Getting and Cleaning Data course of the Coursera JHU Data Science Certificate.
+The data comes from a Human Activity Recognition database built from the recordings of 30 subjects performing activities of daily living (ADL) while carrying a waist-mounted smartphone with embedded inertial sensors.
 UCI project website: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 UCI data source: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 Files
 run_analysis.R : The R script
 README.md : This Readme
-tidy_data.txt : The output (a tidy data set)
-code_book.md : A description of the variables and summaries calculate with units and other pertinent information
+mean_tidy_data.txt : The output (a tidy data set)
+CodeBook.md : A description of the variables, the data, and the transformations I performed to clean up the data 
 
 What it Does
-Running run_analysis.R downloads the UCI data from the UCI data source, imports it to R data objects, merges data sets, modifies variables and factors to be more descriptive, and outputs a summary of means and standard deviations in a tidy data set (output file shown above)
+Running run_analysis.R downloads the UCI data, reads it as R data objects, merges data sets, modifies variable names and factors to be more descriptive, and lastly outputs a summary of means and stds grouped by subject and activity (mean_tidy_data.txt)
